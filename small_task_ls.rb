@@ -42,5 +42,5 @@ if user == 0 && answer_comp == 1 || user == 1 && answer_comp == 2 || user == 2 &
 elsif answer_comp == 0 && user == 1 || answer_comp == 1 && user == 2 || answer_comp == 2 && user == 0
 	puts "Computer WIN!!!"
 else
-	puts "Ничья!!!"
+	puts "Draw!"
 end
